@@ -33,7 +33,7 @@ public class String1 {
 public boolean equal(String1 s) {
     
     	for(int i=0; i < s.length(); i++) {
-    		if(s.getChar(i) != str[i]) {
+    		if(s.str[i] != str[i]) {
     			 return false;
     		}
     	}
@@ -48,4 +48,5 @@ public boolean equal(String1 s) {
   		str[i] =str[size-i];
   		str[size-i] = tmp;
       }
+}
 }
